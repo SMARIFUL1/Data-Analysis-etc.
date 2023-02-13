@@ -1,4 +1,5 @@
-/****** Script for SelectTopNRows command from SSMS  ******/
+/****** Some sql queries from basic to intermediate in SSMS  ******/
+
 #1
 SELECT max([Quantity]) AS MaximumQuantity
   FROM [Project_1].[dbo].[TR_OrderDetails]
