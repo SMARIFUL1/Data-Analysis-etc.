@@ -1,1 +1,5 @@
-
+Here, I have used datasets regarding product sales in USA. The main datset contain 5 columns and more than 5000 rows.
+Other two datsets contain specific information for first one. So, in some cases I have joined three tables and sorted 
+out my required information. The particular queries can be found inside the SQL statements. It's basically a case study
+so I did in my way to fulfill the requirements.
+Thank you.
