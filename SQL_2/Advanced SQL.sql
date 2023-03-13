@@ -88,5 +88,16 @@ Where YearlyIncome >=150000 and Gender='F'
 ORDER BY 4,3 desc
 
 
---Views in SQL
+--Views in SQL( for MySQL)
 
+CREATE VIEW Customer_important_details
+AS
+SELECT Customername
+       , Gender
+       , Phone
+       , Address
+       , Salary
+FROM Customers
+
+SELECT *
+FROM Customer_important_details
