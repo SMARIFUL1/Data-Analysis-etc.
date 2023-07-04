@@ -1,3 +1,5 @@
+--The whole SQL statements are done based on a Database Pizza sales--
+
 
 select *
 from [PizzaDB].[dbo].[pizza_sales]
@@ -70,7 +72,7 @@ GROUP BY pizza_size
 ORDER BY 2 DESC
 
 
---Pizza sales percentage for first quarter based on pizza_size—
+--Pizza sales percentage for first quarter based on pizza_sizeâ€”
 
 SELECT pizza_size, CAST(SUM(total_price) AS DECIMAL (10,2)) AS Total_Sales, CAST(SUM(total_price)*100/ 
 (SELECT SUM(total_price) FROM [PizzaDB].[dbo].[pizza_sales]  WHERE DATEPART(QUARTER, order_date)=1) AS DECIMAL(10,2)) AS Percentage
