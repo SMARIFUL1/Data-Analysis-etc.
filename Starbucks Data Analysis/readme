@@ -1,0 +1,12 @@
+Introduction
+This case study analyizes data provided by Starbucks that simulates their customer demographics and transactional activities during a promotional campaign. The campaign lasted for one month, during which customers received a variaty of offers. The purpose of this case study is to understand customer response to different offers in order to come up with better approaches to sending customers specific promotional deals. Customers are classified into segments based on their transactional activities, so that specific recommendations can be given regarding individual segments to improve customer stickiness, brand awareness and increase revenue in general. Customer segmentation also provides insights on new customer targeting.
+
+
+Data
+Data is provided by Starbucks and available on Kaggle, licensed under Community Data License Agreement - Permissive - Version 1.0. Three files are povided, containing data on the three subjects:
+
+portfolio.csv - data about offers sent to customers (10 offers x 6 columns)
+
+profile.csv - demographic data of customers (17,000 customers x 5 columns)
+
+transcript.csv - customer response to offers and transactions made (306,648 events x 4 columns)
